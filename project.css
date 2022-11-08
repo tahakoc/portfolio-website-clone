@@ -1,0 +1,146 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.hero
+{
+    height: 100vh;
+    width: 100%;
+    background: #edf2fc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    display: inline-block;
+}
+.hero .nav
+{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero .nav ul 
+{
+    display: flex;
+}
+.hero .nav ul li 
+{
+    margin-left: 40px;
+}
+.hero .nav ul li a
+{
+    cursor: pointer;
+    color: rgb(116, 112, 112);
+    font-size: 18px;
+}
+.hero .nav ul li a:hover
+{
+    color: #ff4321;
+    text-decoration:underline
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+
+}
+.info
+{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.info h1
+{
+    font-size: 70px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.info span
+{
+    color: #ff4321;
+ 
+}
+.info p
+{
+    color: #606163;
+    line-height: 22px;
+    transition: all 0.2s;
+}
+.info p:hover
+{
+    color: #ff4321;
+}
+.info a
+{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.info a:hover
+{
+    background: #ff4321;
+    
+}
+.ımg-box
+{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+.ımg-box img
+{
+ height: 100%;
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+transition: bottom 1s, left 1s;
+
+}
+
+.ımg-box:hover .back-ımg
+{
+    bottom: 40px;
+
+}
+
+.ımg-box:hover .main-ımg
+{
+    left: 54%;
+}
+
+.social-links
+{
+    margin-left: 8%;
+    margin-top: 60px;
+  
+}
+.social-links a
+{   
+    transition: all 0.5s;
+ 
+    font-size: 30px;
+    margin-right: 30px;
+    color: #606163;
+  
+}
+.social-links a:hover
+{
+    
+    color: #ff4321;
+  
+}
